@@ -5,9 +5,6 @@
 
 ### 3. README File (README.md)
 
-```markdown
-
-
 ## Overview
 This project analyzes bike-sharing data (from the Capital Bikeshare dataset) to compute key statistics and build predictive models. It demonstrates how to preprocess data, perform exploratory data analysis (EDA), and, optionally, train models. The code is organized into clear, modular components and includes unit tests to ensure reliability.
 
