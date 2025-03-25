@@ -26,7 +26,7 @@ Bike-sharing-project
 |   ├── requirements.txt        # List of Python dependencies
 |   ├── README.md               # Documentation and usage instructions
 |   └── setup.py                # (Optional) For packaging/deployment
-|__README.md                    # Documentation and usage instructions
+|___README.md                    # Documentation and usage instructions
 ```
 
 - **data/**: Contains the raw CSV files.
