@@ -1,4 +1,8 @@
-
+"""
+load_data.py
+------------
+This module contains the function to load the data from a CSV file.
+"""
 
 import logging
 import pandas as pd

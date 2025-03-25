@@ -1,3 +1,9 @@
+"""
+unit_tests.py
+-------------
+This module contains unit tests for the bike sharing analysis module.
+"""
+
 # --- Unit Tests ---
 import unittest
 import pandas as pd

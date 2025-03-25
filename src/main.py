@@ -1,3 +1,8 @@
+"""
+main.py
+-------
+This script is the main entry point for the analysis. It loads the data, conducts EDA, preprocesses the data, trains the model, and evaluates the model using Mean Absolute Deviation (MAD).
+"""
 from load_data import load_data
 from perform_eda import perform_eda
 from preprocess_data import preprocess_data

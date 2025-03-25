@@ -1,3 +1,9 @@
+"""
+preprocess_data.py
+------------------
+This module contains functions for preprocessing the dataset before model training.
+"""
+
 import pandas as pd
 import logging
 

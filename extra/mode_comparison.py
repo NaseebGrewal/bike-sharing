@@ -1,7 +1,6 @@
-# Model Comparison file
-
 """
-bike_sharing_model_comparison.py
+model_comparison.py
+-------------------
 
 This module performs data preprocessing, trains several regression models 
 (RandomForest, Linear Regression, Gradient Boosting, SVR) on the Capital Bikeshare hourly dataset,
