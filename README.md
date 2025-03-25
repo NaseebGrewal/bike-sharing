@@ -1,5 +1,17 @@
-### Bike Sharing Project
+# Bike Sharing Data Analysis and Prediction
 
+
+## Bike Sharing Project
+
+### 3. README File (README.md)
+
+```markdown
+
+
+## Overview
+This project analyzes bike-sharing data (from the Capital Bikeshare dataset) to compute key statistics and build predictive models. It demonstrates how to preprocess data, perform exploratory data analysis (EDA), and, optionally, train models. The code is organized into clear, modular components and includes unit tests to ensure reliability.
+
+## Project Structure
 ```
 bike_sharing_project/
 ├── data/
@@ -26,33 +38,6 @@ bike_sharing_project/
 - **.gitignore**: To exclude files (like virtual environment folders, logs, etc.) from version control.
 
 ---
-
-### 3. README File (README.md)
-
-```markdown
-# Bike Sharing Data Analysis and Prediction
-
-## Overview
-This project analyzes bike-sharing data (from the Capital Bikeshare dataset) to compute key statistics and build predictive models. It demonstrates how to preprocess data, perform exploratory data analysis (EDA), and, optionally, train models. The code is organized into clear, modular components and includes unit tests to ensure reliability.
-
-## Project Structure
-```
-bike_sharing_project/
-├── data/
-│   ├── hour.csv            # Hourly bike-sharing data
-│   └── day.csv             # Daily bike-sharing data (if needed)
-├── src/
-│   ├── __init__.py
-│   ├── analysis.py         # Data analysis functions (e.g., get_average_cnt) and EDA
-│   └── models.py           # (Optional) Model training/inference code
-├── tests/
-│   ├── __init__.py
-│   └── test_analysis.py    # Unit tests for functions in analysis.py
-├── .gitignore              # Specifies files/directories to be ignored by Git
-├── requirements.txt        # List of required Python packages (e.g., pandas, matplotlib, seaborn, scikit-learn)
-├── README.md               # This documentation file
-└── setup.py                # (Optional) Packaging and deployment script
-```
 
 ## Getting Started
 
