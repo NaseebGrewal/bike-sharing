@@ -1,0 +1,24 @@
+# Python Package Requirements
+# Data Science and Machine Learning
+numpy
+pandas
+scikit-learn
+scipy
+
+# Visualization
+matplotlib
+seaborn
+
+# Logging and Utilities
+typing
+
+# Testing
+pytest
+
+# Development Tools
+flake8
+black
+
+# Optional: Jupyter Notebook Support
+jupyter
+notebook
