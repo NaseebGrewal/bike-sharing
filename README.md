@@ -50,8 +50,8 @@ bike_sharing_project/
    ```
 2. **Create and Activate a Virtual Environment**
    ```bash
-   python -m venv venv
-   source venv/bin/activate    # On Windows use: venv\Scripts\activate
+   python -m venv .venv
+   source .venv/bin/activate    # On Windows use: venv\Scripts\activate
    ```
 3. **Install Dependencies**
    ```bash
@@ -61,9 +61,9 @@ bike_sharing_project/
 ## Running the Project
 
 ### Analysis Script
-The main analysis script computes key metrics – for example, it calculates the average of the `cnt` (count) column from the hourly dataset.
+The main script loads data from the data/hour.csv, perform eda, preprocess the data, and trains the model
 ```bash
-python src/analysis.py
+python src/main.py
 ```
 The script will load data from the `data/` folder, perform the analysis, and output results to the console.
 
