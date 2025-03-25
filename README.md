@@ -33,72 +33,71 @@ bike_sharing_project/
 # Bike Sharing Data Analysis and Prediction
 
 ## Overview
-This project analyzes the Capital Bikeshare dataset to compute key statistics and build predictive models. It includes modules for data preprocessing, exploratory data analysis (EDA), and model training. The repository is structured for production deployment with unit tests and clear modular code.
+This project analyzes bike-sharing data (from the Capital Bikeshare dataset) to compute key statistics and build predictive models. It demonstrates how to preprocess data, perform exploratory data analysis (EDA), and, optionally, train models. The code is organized into clear, modular components and includes unit tests to ensure reliability.
 
 ## Project Structure
 ```
 bike_sharing_project/
 ├── data/
 │   ├── hour.csv            # Hourly bike-sharing data
-│   └── day.csv             # Daily bike-sharing data
+│   └── day.csv             # Daily bike-sharing data (if needed)
 ├── src/
 │   ├── __init__.py
-│   ├── analysis.py         # Data analysis and average calculation functions
+│   ├── analysis.py         # Data analysis functions (e.g., get_average_cnt) and EDA
 │   └── models.py           # (Optional) Model training/inference code
 ├── tests/
 │   ├── __init__.py
-│   └── test_analysis.py    # Unit tests for src modules
-├── .gitignore              # Files and folders to be ignored by Git
-├── requirements.txt        # Python dependencies
-├── README.md               # This file
-└── setup.py                # (Optional) Packaging script
+│   └── test_analysis.py    # Unit tests for functions in analysis.py
+├── .gitignore              # Specifies files/directories to be ignored by Git
+├── requirements.txt        # List of required Python packages (e.g., pandas, matplotlib, seaborn, scikit-learn)
+├── README.md               # This documentation file
+└── setup.py                # (Optional) Packaging and deployment script
 ```
 
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
+- Python 3.x installed on your machine
 - pip (Python package manager)
 
 ### Installation
-1. **Clone the repository:**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/bike_sharing_project.git
    cd bike_sharing_project
    ```
-2. **Create and activate a virtual environment:**
+2. **Create and Activate a Virtual Environment**
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   source venv/bin/activate    # On Windows use: venv\Scripts\activate
    ```
-3. **Install dependencies:**
+3. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-### Running the Analysis
-To compute the average of the `cnt` column:
+## Running the Project
+
+### Analysis Script
+The main analysis script computes key metrics – for example, it calculates the average of the `cnt` (count) column from the hourly dataset.
 ```bash
 python src/analysis.py
 ```
-The script will read the CSV file from the `data/` folder and output the average value of the `cnt` column.
+The script will load data from the `data/` folder, perform the analysis, and output results to the console.
 
-### Running Tests
-Unit tests are available in the `tests/` folder. To run the tests:
+### Running Unit Tests
+To ensure that all functions are working correctly, run the unit tests:
 ```bash
 python -m unittest discover tests
 ```
 
-## Production Deployment
-This project is structured for ease of deployment:
-- **Modular Code:** Functions are separated into different modules.
-- **Testing:** Unit tests ensure code quality.
-- **Configuration:** Paths and parameters can be easily configured via environment variables or config files.
-- **Packaging:** Use `setup.py` for packaging if deploying as a Python package.
+## Development Workflow
+- **Modular Design:** Functions are separated into modules (`analysis.py` for data analysis and `models.py` for model-related code).
+- **Testing:** Unit tests located in the `tests/` folder help verify our code changes.
+- **Configuration:** Easily adjust parameters and file paths if needed.
 
 ## Contributing
-Contributions are welcome! Please fork the repository and submit pull requests.
+New contributors are welcome! Please fork the repository, create a new branch for your feature or fix, and submit a pull request. Ensure that changes are well documented and tests pass before submitting your PR.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
