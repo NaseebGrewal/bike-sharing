@@ -45,7 +45,7 @@ bike_sharing_project/
 ### Installation
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/bike_sharing_project.git
+   git clone https://github.com/NaseebGrewal/bike-sharing.git
    cd bike_sharing_project
    ```
 2. **Create and Activate a Virtual Environment**
