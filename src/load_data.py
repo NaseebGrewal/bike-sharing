@@ -3,7 +3,7 @@ load_data.py
 ------------
 This module contains the function to load the data from a CSV file.
 """
-
+# import required libraries
 import logging
 import pandas as pd
 

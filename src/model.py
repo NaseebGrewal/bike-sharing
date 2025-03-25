@@ -4,6 +4,7 @@ model.py
 This module contains the function to train a RandomForestRegressor model to predict hourly bike utilization.
 """
 
+# Import required libraries
 import logging
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor

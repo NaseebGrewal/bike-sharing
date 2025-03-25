@@ -3,6 +3,7 @@ analyse.py
 ----------
 This module provides a function to compute the average of the 'cnt' column from the bike-sharing dataset.
 """
+# Import required libraries
 import logging
 import pandas as pd
 

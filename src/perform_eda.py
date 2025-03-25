@@ -3,6 +3,8 @@ perform_eda.py
 --------------
 This module contains functions to perform Exploratory Data Analysis (EDA) on the dataset.
 """
+
+# import required libraries
 import os
 import logging
 import pandas as pd
