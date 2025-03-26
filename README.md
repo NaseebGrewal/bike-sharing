@@ -73,17 +73,6 @@ python src/main.py
 ```
 The script will load data from the `data/` folder, perform the analysis, and output results to the console.
 
-### Running Unit Tests
-To ensure that all functions are working correctly, run the unit tests:
-```bash
-python -m unittest discover tests
-```
-
-## Development Workflow
-- **Modular Design:** Functions are separated into modules (`analysis.py` for data analysis and `models.py` for model-related code).
-- **Testing:** Unit tests located in the `tests/` folder help verify our code changes.
-- **Configuration:** Easily adjust parameters and file paths if needed.
-
 ## Contributing
 New contributors are welcome! Please fork the repository, create a new branch for your feature or fix, and submit a pull request. Ensure that changes are well documented and tests pass before submitting your PR.
 
