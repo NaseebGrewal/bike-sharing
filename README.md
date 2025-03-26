@@ -35,10 +35,9 @@ Bike-sharing-project
 ```
 
 - **data/**: Contains the raw CSV files.
-- **src/**: Holds all source code including data processing and model code.
-- **tests/**: Contains unit tests to ensure code reliability.
+- **extra/**: Contains model comparison code
+- **src/**: Holds all source code including data processing and model code, and unit test.
 - **requirements.txt**: List all required packages (e.g., pandas, matplotlib, seaborn, scikit-learn).
-- **setup.py**: (Optional) For packaging the project as a Python package.
 - **.gitignore**: To exclude files (like virtual environment folders, logs, etc.) from version control.
 
 ---
