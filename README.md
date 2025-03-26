@@ -66,7 +66,7 @@ Bike-sharing-project
 
 ## Running the Project
 
-### Analysis Script
+### Execution
 The main script loads data from the data/hour.csv, perform eda, preprocess the data, and trains the model
 ```bash
 python src/main.py
