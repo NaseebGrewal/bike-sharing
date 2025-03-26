@@ -13,19 +13,24 @@ This project analyzes bike-sharing data (from the Capital Bikeshare dataset) to 
 Bike-sharing-project
 |___SourceCode/
 |   ├── data/
-|   │   ├── hour.csv            # Hourly bike-sharing data
-|   │   └── day.csv             # Daily bike-sharing data (if needed)
+|   │   ├── hour.csv             # Hourly bike-sharing data
+|   │   └── day.csv              # Daily bike-sharing data (if needed)
+|   ├── extra/
+|   │   ├── analyse.py           # calcute avg of cnt column 
+|   │   └── model_comparison.py  # compared results of different models (like: RandomForest, Linear Regression, Gradient Boosting, SVR) 
 |   ├── src/
-|   │   ├── __init__.py
-|   │   ├── analysis.py         # Contains the get_average_cnt function (and other analysis code)
-|   │   └── models.py           # (Optional) Contains model training/inference code
-|   ├── tests/
-|   │   ├── __init__.py
-|   │   └── test_analysis.py    # Unit tests for analysis.py functions
-|   ├── .gitignore              # Specifies files/directories to be ignored by Git
-|   ├── requirements.txt        # List of Python dependencies
-|   ├── README.md               # Documentation and usage instructions
-|   └── setup.py                # (Optional) For packaging/deployment
+|   │   ├── notebooks/         
+|   │   ├     └── tests.ipynb    # Jupyter notebook for testing functions
+|   │   ├── load_data.py         # function that reads the CSV file
+|   │   ├── main.py              # Contains the get_average_cnt function (and other analysis code)
+|   │   └── models.py            # Function that Trains the RandomForestRegressor and computes the Mean Absolute Deviation.
+|   │   └── perform_eda.py       # Function that Performs exploratory data analysis and saves plots.
+|   │   └── preprocess_data.py   # Function that Prepares and transforms the data for modeling.
+|   ├── .gitignore               # Specifies files/directories to be ignored by Git
+|   ├── bike+sharing+dataset.zip # raw data zip file 
+|   ├── requirements.txt         # List of Python dependencies
+├───.gitignore                   # Specifies files/directories to be ignored by Git
+├───LICENSE                      # Project license 
 |___README.md                    # Documentation and usage instructions
 ```
 

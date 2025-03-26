@@ -9,8 +9,8 @@ This module contains unit tests for the bike sharing analysis module.
 # Import required libraries
 import unittest
 import pandas as pd
-from src.preprocess_data import preprocess_data
-from src.load_data import load_data
+from preprocess_data import preprocess_data
+from load_data import load_data
 
 class TestBikeSharingAnalysis(unittest.TestCase):
     """Unit tests for key functions in the bike sharing analysis module."""
