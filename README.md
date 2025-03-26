@@ -71,6 +71,18 @@ python src/main.py
 ```
 The script will load data from the `data/` folder, perform the analysis, and output results to the console.
 
+### Plots
+
+<p align="center">
+<img src="https://github.com/NaseebGrewal/bike-sharing/blob/main/SourceCode/src/plots/cnt_by_weathersit.png" alt="cnt_by_weathersit.png" width="45%" />
+<img src="https://github.com/NaseebGrewal/bike-sharing/blob/main/SourceCode/src/plots/cnt_distribution.png" alt="cnt_distribution" width="45%" />
+</p>
+
+<p align="center">
+<img src="https://github.com/NaseebGrewal/bike-sharing/blob/main/SourceCode/src/plots/correlation_heatmap.png" alt="correlation_heatmap.png" width="45%" />
+<img src="https://github.com/NaseebGrewal/bike-sharing/blob/main/SourceCode/src/plots/hourly_avg.png" alt="hourly_avg.png" width="45%" />
+</p>
+
 ## Contributing
 New contributors are welcome! Please fork the repository, create a new branch for your feature or fix, and submit a pull request. Ensure that changes are well documented and tests pass before submitting your PR.
 
